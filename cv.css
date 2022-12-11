@@ -1,0 +1,146 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(218, 214, 214);
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    max-width: 1250px;
+    display: grid;
+    grid-template-columns: 20% 60%;
+    margin: 1rem;
+    margin-left: 15rem;
+    grid-gap: 1rem;
+}
+
+.p-icons {
+    height: 17px;
+    width: 17px;
+    margin-right: 5px;
+}
+
+.intro,
+.education,
+.interest {
+    background-color: white;
+    border-style: groove;
+    border-width: 3px;
+}
+.intro p ,.education p{
+    color: cornflowerblue;
+}
+.left {
+    background-color: darkolivegreen;
+}
+
+.right,
+.left {
+    margin: 0.7rem;
+    width: 100%;
+}
+
+.photo img {
+    width: 100%;
+    height: 210px;
+}
+
+.photo {
+    position: relative;
+}
+
+.photo h2 {
+    color: white;
+    margin: 4px 0px;
+    margin-left: 15px;
+}
+
+.personal,
+.SKILLS,
+.LANGUAGES {
+    padding: 1rem;
+    margin: 4px;
+    color: white;
+}
+
+.personal li,
+.SKILLS li,
+.LANGUAGES li {
+    margin: 8px 0px;
+}
+
+.intro,
+.education,
+.interest {
+    line-height: 2;
+    padding: 2rem;
+}
+
+.education,
+.interest {
+    margin-top: 1rem;
+}
+
+.education ul {
+    margin: 2rem 0;
+}
+.education h4{
+    color:darkolivegreen;
+}
+.SKILLS h3,
+.LANGUAGES h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+.date{
+    color: cornflowerblue;
+}
+
+footer {
+    padding: 1.8rem 0;
+    text-align: center;
+    margin-top: 4px;
+    line-height: 0.2;
+    cursor: pointer;
+    background-color: white;
+}
+.icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 2px;
+}
+
+.left-icon {
+    height: 22.5px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+.right h1 {
+    color: darkolivegreen;
+}
+
+.int {
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.social {
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.left progress{
+    height: 10px;
+}
